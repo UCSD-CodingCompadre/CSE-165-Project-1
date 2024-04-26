@@ -161,7 +161,7 @@ public class S_XRSimpleInteractable_Furniture : XRBaseInteractable
             }
 
             // Calculate the new position of the object
-            Vector3 newPosition = firstInteractorSelecting.transform.position + firstInteractorSelecting.transform.forward * 5.0f;
+            Vector3 newPosition = firstInteractorSelecting.transform.position + firstInteractorSelecting.transform.forward * 3.0f;
 
             // Set the new position of the object
             ObjectTransform.position = newPosition;

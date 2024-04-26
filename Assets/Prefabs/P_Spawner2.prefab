@@ -94,6 +94,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 635b1142945b9604c8335adac1b8b185, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6214677276736971713}
+    - targetCorrespondingSourceObject: {fileID: -927199367670048503, guid: 635b1142945b9604c8335adac1b8b185, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7464564820168332574}
   m_SourcePrefab: {fileID: 100100000, guid: 635b1142945b9604c8335adac1b8b185, type: 3}
 --- !u!4 &92725968730456388 stripped
 Transform:
@@ -242,3 +245,30 @@ MonoBehaviour:
     m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   FurniturePrefab: {fileID: 4818524510133203293, guid: 400e07bbb6516d5438553bc2ce83b253, type: 3}
   HoverMaterial: {fileID: 2100000, guid: 21cc2097f09d1a849b629fdcd67ec8d4, type: 2}
+--- !u!54 &7464564820168332574
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3968291525459506007}
+  serializedVersion: 4
+  m_Mass: 800
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0

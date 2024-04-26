@@ -32,7 +32,7 @@ public class S_OculusHands : MonoBehaviour
         HandAnimator.SetFloat("Trigger", TriggerValue);
 
         // Hold the grab value
-        float GripValue = PinchInputAction.action.ReadValue<float>();
+        float GripValue = GrabInputAction.action.ReadValue<float>();
 
         // Set the variable for the animator
         HandAnimator.SetFloat("Grip", GripValue);
